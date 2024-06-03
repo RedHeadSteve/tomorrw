@@ -1,0 +1,14 @@
+@font-face {
+    font-family: gordita-black;
+    src: url("Gordita-Black.otf");
+}
+
+@font-face {
+    font-family: "Gordita-Light";
+    src: url("Gordita-Light.otf");
+}
+
+@font-face {
+    font-family: "Gordita-Regular";
+    src: url("Gordita-Medium.otf");
+}

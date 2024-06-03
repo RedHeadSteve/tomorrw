@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <title>Tomorrw Consultancy</title>
+</head>
+<body>
+<header class="outer-container">
+    <nav class="inner-wide">
+        <img class="logo-nav" onclick="location.href='index.html';" src="assets/Tomorrw_Wide_Colour_DarkLarge.png"
+             alt="Tomorrw Logo">
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li onclick="scrollMissie()">Services</li>
+            <li onclick="scrollClient()">Partners</li>
+            <li onclick="scrollContact()">Contact</li>
+            <li class="mobile-menu-button" onclick="toggleMenu()"><img src="assets/menu.png" alt="menu"></li>
+        </ul>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li onclick="scrollMissie(); toggleMenu()">Services</li>
+            <li onclick="scrollClient(); toggleMenu()">Partners</li>
+            <li onclick="scrollContact(); toggleMenu()">Contact</li>
+        </ul>
+    </div>
+</header>
+<main class="">
+    <section class="outer-container">
+        <div class="inner-wide banner-content">
+            <article class="banner-article">
+                <h1>Enabling entrepreneurs to succeed holistically</h1>
+                <button class="reach-button" type="button" onclick="scrollContact()">Reach out to us
+                </button>
+            </article>
+            <span class="banner-img">
+                <img src="assets/tekening-header.png" alt="tekening uitleg">
+            </span>
+        </div>
+    </section>
+    <section class="outer-container intro">
+        <article class="swiper-title">
+            <!--                <img class="slide-img" src="assets/welcome.png" alt="welcome">-->
+            <h4>Welcome at Tomorrw Consultancy.</h4>
+            <p class="text-accent"> Our team is passionate to enable you to make your business:</p>
+        </article>
+        <div class="swiper inner-wide">
+            <div class="swiper-wrapper">
+                <article class="swiper-slide first-slide">
+                    <img class="slide-img" src="assets/attractive.png" alt="attractive icon">
+                    <div class="swiper-triangle"></div>
+                    <h4>Attractive to work at:</h4>
+                    <p>By creating a healthy culture and building an excellent team that can elevate your business to
+                        the
+                        next level, our people & culture specialists can support the transition to an attractive
+                        workplace
+                        with a thriving team.</p>
+                </article>
+                <article class="swiper-slide second-slide">
+                    <img class="slide-img" src="assets/easy.png" alt="easy icon">
+                    <div class="swiper-triangle"></div>
+                    <h4>Easy to manage:</h4>
+                    <p>With the right foundations, a business doesn’t have to be complex to run. Our consultants help
+                        you to create solid business structures and processes that support your mission and help achieve
+                        your business goals. </p>
+                </article>
+                <article class="swiper-slide third-slide">
+                    <img class="slide-img" src="assets/fast.png" alt="swift icon">
+                    <div class="swiper-triangle"></div>
+                    <h4>Swiftly scalable:</h4>
+                    <p>Impact should always be scalable, and the right strategy enables your business to become more
+                        effective and profitable, while positively impacting the environment and surrounding
+                        communities. That’s basically what we exist for.</p>
+                </article>
+                <article class="swiper-slide first-slide">
+                    <img class="slide-img" src="assets/attractive.png" alt="attractive icon">
+                    <div class="swiper-triangle"></div>
+                    <h4>Attractive to work at:</h4>
+                    <p>By creating a healthy culture and building an excellent team that can elevate your business to
+                        the
+                        next level, our people & culture specialists can support the transition to an attractive
+                        workplace
+                        with a thriving team.</p>
+                </article>
+                <article class="swiper-slide second-slide">
+                    <img class="slide-img" src="assets/easy.png" alt="easy icon">
+                    <div class="swiper-triangle"></div>
+                    <h4>Easy to manage:</h4>
+                    <p>With the right foundations, a business doesn’t have to be complex to run. Our consultants help
+                        you to create solid business structures and processes that support your mission and help achieve
+                        your business goals. </p>
+                </article>
+                <article class="swiper-slide third-slide">
+                    <img class="slide-img" src="assets/fast.png" alt="swift icon">
+                    <div class="swiper-triangle"></div>
+                    <h4>Swiftly scalable:</h4>
+                    <p>Impact should always be scalable, and the right strategy enables your business to become more
+                        effective and profitable, while positively impacting the environment and surrounding
+                        communities. That’s basically what we exist for.</p>
+                </article>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <div class="triangle"></div>
+    <section class="outer-container services" id="services">
+        <div class="services-title inner-container">
+            <h2>Our services</h2>
+        </div>
+        <div class="inner-wide services-cards">
+            <div class="services-card">
+                <article class="services-card-article">
+                    <h3>Team, culture and leadership</h3>
+                    <p>With Tomorrw Consultancy we are on a mission to facilitate growth and overcome challenges within
+                        businesses, to scale up the impact you make. Whether we work with colleagues, clients,
+                        investors,
+                        advisors, or whomever, every business depends on the right people.
+                    </p>
+                    <p>
+                        That’s why we specialize in building a complementary team, an attractive work culture based on
+                        shared company values, and leadership that empowers teams and individuals. Every good
+                        professional
+                        relationship increases the chances of success.
+                    </p>
+                    <p>
+                        Whether you want to improve team dynamics, overcome cultural hurdles, or train your leadership,
+                        we've got your back! </p>
+                    <button class="reach-button" type="button" onclick="scrollContact()">Reach out to us
+                    </button>
+                </article>
+                <div class="image-container-services">
+                    <div class="accent-line"></div>
+                </div>
+            </div>
+            <div class="services-card services-card-reverse">
+                <article class="services-card-article">
+                    <h3>Organizational structure, business processes and effective operation</h3>
+                    <p>A strong business foundation is crucial for the future growth and profitability of your business.
+                        At Tomorrw Consultancy we empower you to build a solid business foundation to enable your future
+                        growth.
+                    </p>
+                    <p>
+                        Therefore, our consultants facilitate your team in streamlining business processes and
+                        simplifying your business structure where possible, minimizing the clutter. This way we create
+                        the best conditions for your business to thrive.
+                    </p>
+                    <p>
+                        With a hands-on approach we enable you to swiftly grow an efficiently arranged organization with
+                        a simplified business structure and effectively streamlined operations.
+                    </p>
+                    <button class="reach-button" type="button" onclick="scrollContact()">Reach out to us
+                    </button>
+                </article>
+                <div class="image-container-services">
+                    <div class="accent-line accent-line-reverse"></div>
+                </div>
+            </div>
+            <div class="services-card">
+                <article class="services-card-article">
+                    <h3>Scalability and sustainable growth</h3>
+                    <p>The most trustworthy indicator of success is mutually positive impact. Profitable businesses that
+                        positively impact their people, communities and the environment often have better growth and
+                        profit rates than traditional businesses. </p>
+                    <p>
+                        Financial gain at the expense of people, the environment or society is no real profit, but a
+                        loss. Together we aim for a positive impact of businesses on people, planet, and the economy.
+                        Tomorrw Consultancy strives for lasting and meaningful impact, ensuring the effectiveness and
+                        quality of your products/services in the process.
+                    </p>
+                    <p>
+                        Are you interested in expanding your business and maximizing its influence? Our team specializes
+                        in crafting tailored strategies to accelerate your business's growth.
+                    </p>
+                    <button class="reach-button" type="button" onclick="scrollContact()">Reach out to us
+                    </button>
+                </article>
+                <div class="image-container-services">
+                    <div class="accent-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="triangle-bottom"></div>
+    <section class="outer-container" id="client">
+        <div class="clients inner-container">
+            <div class="client-img">
+                <img src="assets/henry.png" alt="Henry">
+            </div>
+            <article class="inner-wide clients-quote thin">
+                <h5 class="quote"><i>"I asked <span class="text-accent">Tomorrw Consultancy</span> to help me build my
+                    business. They didn't just do that, they launched
+                    me as
+                    entrepreneur."</i></h5>
+                <h5 class="client-naam">Henry Cheung, <span class="text-accent">LifeCode Solutions</span></h5>
+                <a href="https://www.linkedin.com/posts/tomorrwconsultancy_startup-scaleup-innovation-activity-7120031317466980352-2qPX?utm_source=share&utm_medium=member_desktop"
+                   target="_blank">
+                    <button>Read more</button>
+                </a>
+            </article>
+        </div>
+    </section>
+</main>
+<footer class="outer-container">
+    <section class="thin outer-container contact">
+        <div class="inner-wide contact-form ">
+            <div class="contact-textside">
+                <article class="contact-text">
+                    <h5 class="">We love to hear from you</h5>
+                    <h2 class="text-accent">Reach out to us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum deleniti enim esse est
+                        obcaecati
+                        odit quasi quibusdam suscipit velit. Aliquam cumque debitis, deleniti enim eos nemo quae tempore
+                        totam.</p>
+                </article>
+                <a class="linkedin-logo" href="https://www.linkedin.com/company/tomorrwconsultancy/"
+                   target="_blank"><img
+                        src="assets/linkedin.svg" alt="logo-linkedin"></a>
+            </div>
+            <div class="form-box">
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact">
+                    <input type="hidden" name="access_key" value="d74b416e-57b8-48cb-9532-af477f3b59dc">
+                    <label for="naam">volledige naam:</label>
+                    <input type="text" name="naam" id="naam" required placeholder="First name / Last name"/>
+                    <div class="form-small">
+                        <div class="form-small-pos">
+                            <label for="mail">E-mail:</label>
+                            <input type="text" name="mail" id="mail" required placeholder="youre-mail@mail.nl"/>
+                        </div>
+                        <div class="form-small-pos">
+                            <label for="telefoon">Telefoon:</label>
+                            <input type="text" name="telefoon" id="telefoon" required placeholder="+31 6 12345678"/>
+                        </div>
+                    </div>
+                    <label for="onderwerp">Onderwerp:</label>
+                    <input type="text" name="onderwerp" id="onderwerp" required placeholder="Subject"/>
+                    <label for="bericht">Bericht:</label>
+                    <textarea name="bericht" id="bericht" cols="30" rows="10" required
+                              placeholder="Your message"></textarea>
+                </form>
+                <input form="contact" class="subscribe" type="submit" value="Send"></div>
+        </div>
+    </section>
+</footer>
+<!--Swiper.js script-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--smptjs script-->
+<script src="scripts/script.js"></script>
+</body>
+</html>

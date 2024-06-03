@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <title>Title</title>
+</head>
+<body>
+<header class="outer-container">
+    <nav class="inner-wide">
+        <img class="logo-nav" onclick="location.href='index.html';"
+             src="assets/Tomorrw_Wide_Colour_DarkLarge.png" alt="Tomorrw Logo">
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li onclick="scrollMissie()">Services</li>
+            <li onclick="scrollClient()">Partners</li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="thin outer-container contact">
+    <div class="inner-wide contact-form ">
+        <div class="contact-textside">
+            <article class="contact-text">
+                <h5 class="">We love to hear from you</h5>
+                <h1 class="text-accent">Reach out to us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum deleniti enim esse est
+                    obcaecati
+                    odit quasi quibusdam suscipit velit. Aliquam cumque debitis, deleniti enim eos nemo quae tempore
+                    totam.</p>
+            </article>
+            <a class="linkedin-logo" href="https://www.linkedin.com/company/tomorrwconsultancy/" target="_blank"><img
+                    src="assets/linkedin.svg" alt="logo-linkedin"></a>
+        </div>
+        <div class="form-box">
+            <form id="contact">
+                <label for="naam">volledige naam:</label>
+                <input type="text" name="naam" id="naam" placeholder="First name / Last name"/>
+                <div class="form-small">
+                    <div class="form-small-pos">
+                        <label for="mail">E-mail:</label>
+                        <input type="text" name="mail" id="mail" placeholder="youre-mail@mail.nl"/>
+                    </div>
+                    <div class="form-small-pos">
+                        <label for="telefoon">Telefoon:</label>
+                        <input type="text" name="telefoon" id="telefoon" placeholder="+31 6 12345678"/>
+                    </div>
+                </div>
+                <label for="onderwerp">Onderwerp:</label>
+                <input type="text" name="onderwerp" id="onderwerp" placeholder="Subject"/>
+                <label for="bericht">Bericht:</label>
+                <textarea name="bericht" id="bericht" cols="30" rows="10"
+                          placeholder="Your message"></textarea>
+            </form>
+            <input form="contact" class="subscribe" type="submit" value="Send"></div>
+    </div>
+</section>
+<footer class="outer-container">
+    <section class="inner-wide thin footer-lists">
+        <ul class="footer-contact">
+            <li class="footer-title"><a href="contact.html">Contact</a></li>
+            <li>E-mail:</li>
+            <li><a href="mailto:willemijn@tomorrwconsultancy.com">willemijn@tomorrwconsultancy.com</a></li>
+            <li><a href="mailto:arjen@tomorrwconsultancy.com">arjen@tomorrwconsultancy.com</a></li>
+            <li class="logo-linkedin
+"><a class="linkedin-logo-footer" href="https://www.linkedin.com/company/tomorrwconsultancy/"
+                   target="_blank"><img
+                    src="assets/linkedin.svg" alt="logo-linkedin"></a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="footer-title">navigate to:</li>
+            <li><a href="index.html">Home</a></li>
+            <li class="click" onclick="scrollMissie()">Services</li>
+            <li class="click" onclick="scrollClient()">Partners</li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+</footer>
+</body>
+</html>
