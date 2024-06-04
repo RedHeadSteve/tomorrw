@@ -606,8 +606,8 @@ footer {
         align-items: center;
     }
     .banner-img > img {
-        width: 90vw;
-        height: 90vw;
+        width: 100vw;
+        height: 100vwgi;
     }
     .banner-article {
         position: static;
