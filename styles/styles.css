@@ -605,9 +605,10 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .banner-img > img {
+    .banner-img {
         width: 100vw;
         height: 100vw;
+        margin-right: 5giyt vw;
     }
     .banner-article {
         position: static;
