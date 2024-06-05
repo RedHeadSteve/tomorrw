@@ -694,6 +694,12 @@ footer {
     .logo-nav {
         margin-left: 1rem;
     }
+    .linkedin-logo {
+        margin-top: 1rem;
+    }
+    .form-box {
+        padding: 0.75rem;
+    }
 }
 
 @media screen and (max-width: 430px) {
