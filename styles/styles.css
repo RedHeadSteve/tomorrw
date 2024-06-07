@@ -315,6 +315,10 @@ nav {
     color: #0A060B;
 }
 
+.services-title {
+    margin: 1rem;
+}
+
 .services-cards {
     flex-basis: 1500px;
     flex-direction: column;
